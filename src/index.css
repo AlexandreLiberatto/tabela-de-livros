@@ -62,4 +62,14 @@ tfoot > tr {
   background-color: #0069d9;
   border-color: #0062cc;
 }
+.container-setinhas {
+  display: inline-block;
+  width: 20px;
+  height: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
 
+.container-setinhas > div {
+  cursor: pointer;
+}
