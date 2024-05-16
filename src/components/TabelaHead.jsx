@@ -1,14 +1,14 @@
 
 
-const TabelaHead = () => {
+const TabelaHead = (props) => {
   return (
     
         <thead>
             <tr>
                 <th colSpan='4'>Tabela de Livros
                 <div className="container-setinhas">
-                    <div>&#129093;</div>
-                    <div>&#129095;</div>
+                    <div onClick={ () => props.ordenarCrescente()}>&#129093;</div>
+                    <div onClick={ () => props.ordenarDecrescente()}>&#129095;</div>
                 </div>
                 </th>
             </tr>
