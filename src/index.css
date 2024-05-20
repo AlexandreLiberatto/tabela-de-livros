@@ -75,8 +75,7 @@ tfoot > tr {
 }
 
 @media screen and (max-width: 600px) {
-  .tabela {
+  .principal {
     flex-direction: column;
-    
   }
 }
