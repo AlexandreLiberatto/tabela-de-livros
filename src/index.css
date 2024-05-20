@@ -73,3 +73,10 @@ tfoot > tr {
 .container-setinhas > div {
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .tabela {
+    flex-direction: column;
+    
+  }
+}
